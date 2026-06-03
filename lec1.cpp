@@ -114,6 +114,161 @@ for(int i = 1;i<=n;i++){
 }
 return 0;
 }
+// printing pattern in the alphabate
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int n;
+// cin>>n;
+
+// for(int i = 1;i<=n;i++){
+//   char ch = 'A'+i-1;
+//     for(int j = 1;j<=i;j++){
+//         cout<<ch<<" "; 
+        
+//     }
+//     cout<<endl;
+//     }
+//     return 0;
+// }
+// printing hte pattern into the given number 
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int n;
+// cin>>n;
+
+
+// for(int i = 1;i<=n;i++){
+//   int count =1;
+//     for(int j =1;j<=i;j++){
+//         cout<<count<<" ";
+//         count++;}
+//         cout<<endl;}
+//         return 0;
+
+//next pattern for the given number
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int n;
+// cin>>n;
+
+
+// for(int i = 1;i<=n;i++){
+//   for(int j=i;j>=1;j--){
+//       cout<<j<<" " ;   
+//     }
+//     cout<<endl;
+//     }
+//     return 0;
+// }
+//printing the pattern into new variable introduction  form 
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int n;
+// cin>>n;
+//  int count = 1;
+
+// for(int i = 1;i<=n;i++){
+
+//   for(int j=1;j<=i;j++){
+//       cout<<count<<" " ;
+//       count++;
+
+//     }
+//     cout<<endl;
+//     }
+//     return 0;
+// }
+// printing the loop in another pattern
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int n;
+// cin>>n;
+ 
+
+// for(int i = 1;i<=n;i++){
+  
+
+//   for(int j=1;j<=i;j++){
+//       cout<<" ";}
+//   for(int k = 1;k<=n-i+1;k++){
+//     cout<<i;
+//   }
+
+
+    
+//     cout<<endl;
+//     }
+//     return 0;
+// }
+// pyramid pattern in the c++
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int n;
+// cin>>n;
+ 
+
+// for(int i = 1;i<=n;i++){
+  
+
+//   for(int j=1;j<=n-i;j++){
+//       cout<<" ";}
+//   for(int l=1;l<=i;l++){
+//     cout<<l;}
+//   for(int r = i-1;r>=1;r--){
+//     cout<<r;
+//   }
+//   for()
+
+
+    
+//     cout<<endl;
+//     }
+//     return 0;
+// }
+#include<iostream>
+using namespace std;
+int main(){
+int n;
+cin>>n;
+ 
+for(int i = 1;i<=n;i++){
+  for(int j=1;j<=n-i;j++){
+      cout<<" ";}
+      cout<<"*";
+      if(i != 0){
+        for(int k =1;k<=2*i-1;k++){
+        cout<<" ";
+      }
+      cout<<"*";
+    }
+    for(int m = 1;m<=n;m++){
+      for(int o = 1;o<=m;o++){
+        cout<<" ";
+      }
+      cout<<"*";
+      if(i != n-1){
+        for(int lsb = 1;lsb<=2*(n-m)-5;lsb++)
+        cout<<" ";
+      }
+      cout<<"*";
+
+    }
+
+
+    cout<<endl;
+    }
+    return 0;
+}
+  
+ 
+
 
   
   
